@@ -1,0 +1,132 @@
+html{
+    font-size: 62.5%;
+}
+
+
+*,
+*::after,
+*::before{
+    margin:0;
+    padding:0;
+    box-sizing: inherit;
+  
+}
+body{
+    font-family: "lato",sans-serif;
+    font-weight: 400;
+    /* font-size: 16px; */
+    line-height: 1.7;
+    color: #777;
+    padding: 3rem;
+    box-sizing: border-box;
+}
+.header{
+    height: 95vh;
+    
+  background-image: linear-gradient(to right bottom,rgba(133, 222, 255, 0.789), rgba(40, 180, 133, 0.802)), url(../images/bg.jpg);
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 8%, 100% 100%, 0 90%);
+  position: relative;
+}
+.logo-box{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+.logo{
+    height: 9rem;
+}
+
+.text-box{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.heading-primary{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.heading-primary-main{
+    display: block;
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 2rem;
+    padding-left: 4rem;
+   animation:moveInLeft 1s ease-out;
+    
+}
+
+.heading-primary-sub{
+    display: block;
+    font-size:1.5rem ;
+    font-weight: 700;
+    letter-spacing: 1.75rem;
+    animation: moveInRight 1s ease-out;
+} 
+
+
+@keyframes moveInLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(-10rem);
+
+    }
+    80%{
+        transform: translateX(1rem);
+    }
+    100%{ 
+        opacity: 1;
+        transform: translate(0);
+
+    }
+}
+
+@keyframes moveInRight {
+
+       0%{
+        opacity: 0;
+        transform: translateX(10rem);
+
+    }
+    80%{
+        transform: translateX(-1rem);
+    }
+    100%{ 
+        opacity: 1;
+        transform: translate(0);
+
+    }
+}
+
+.navigation li{
+    list-style: none;
+
+}
+.navigation ul{
+    padding: 0%;
+    margin: 0%;
+
+}
+.navigation a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+}
+nav{
+    position: absolute;
+    top: 60%;
+
+}
+nav :hover{
+    color:rgb(72, 66, 66);
+}
+
+
+
+
+
+

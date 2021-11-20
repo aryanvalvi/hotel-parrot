@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-image: url(../images/bg.jpg);
+}
+.header{
+    height: 95vh;
+    
+  background-image: linear-gradient(to right,rgba(133, 222, 255, 0.789), rgba(40, 180, 133, 0.802)), url(../images/bg.jpg);
+  background-size: cover;
+  background-position: top;
+
+  
+
+}
+body{
+    font-family: "lato",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+    padding: 30px;
+}

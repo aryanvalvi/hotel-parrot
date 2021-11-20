@@ -1,0 +1,43 @@
+.container1{
+    display: block;
+    max-width: 200px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+
+}
+.container2{
+    display: block;
+    max-width: 300px;
+   
+    float: right;
+    position: absolute;
+    top: 30%;
+    left: 38%;
+
+}
+.container3{
+    display: block;
+    max-width: 300px;
+    float: right;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+
+}
+
+
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}
